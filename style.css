@@ -35,19 +35,16 @@ td {
   font-size: 20px;
 }
 
-a {
-  text-decoration: none;
+span {
   color: black;
+  background-color: transparent;
+  border-radius: 50%;
+  transition: 0.5s;
+  padding: 8px;
 }
 
-a:hover {
-  color: gray;
-  text-shadow: 2px black;
-}
-
-.voltar {
-  margin: 10px;
-  font-size: 20px;
+span:hover {
+  background-color: #d3d3d3;
 }
 
 .enunciado {
@@ -77,6 +74,7 @@ button {
   background-color: dodgerblue;
   color: white;
   font-size: 15px;
+  transition: 0.3s;
   margin: 10px;
   padding: 10px;
   border-radius: 10px;

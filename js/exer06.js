@@ -1,4 +1,3 @@
-
 function limparFormulario() {
     document.getElementById('rua').value = ("");
     document.getElementById('bairro').value = ("");
@@ -21,7 +20,7 @@ function callback(conteudo) {
     }
 }
 
-function pesquisarCep(valor) {
+function pesquisacep(valor) {
 
     var cep = valor.replace(/\D/g, '');
 
